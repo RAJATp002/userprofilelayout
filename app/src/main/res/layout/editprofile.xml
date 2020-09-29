@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4EFE7"
+    android:textAlignment="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:background="#F6871F"
+                    android:text="  User profile"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal|bold" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="158dp">
+
+                    <ImageView
+                        android:id="@+id/imageView30"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/ppp"
+                        android:src="@drawable/ta" />
+
+                    <ImageView
+                        android:id="@+id/imageView31"
+                        android:layout_width="61dp"
+                        android:layout_height="45dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="115dp"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/button" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:text="Himanshu gupta"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:text="  Email"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:backgroundTint="#000000"
+                    android:text="  temp@gmail.com"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:text="  Phone number"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/textView31"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:text="  6345434343"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:text="  Gender"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="  TextView" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="294dp"
+                    android:layout_height="44dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rect"
+                    android:text="  Update user profile" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp">
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:src="@drawable/pre" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp">
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:text="  Child information"
+                    android:textAlignment="center"
+                    android:textColor="#FF6D00"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="match_parent"
+                    android:layout_height="33dp"
+                    android:text="  CHILD NAME"
+                    android:textColor="#FF6D00"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold" />
+
+                <EditText
+                    android:id="@+id/textView36"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text="  ayush gupta"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:text="  GENDER"
+                    android:textColor="#FF6D00"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="  Male"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="  SCHOOL"
+                    android:textColor="#FF6D00"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName2"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="  samford international "
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="322dp"
+                    android:layout_height="51dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rect"
+                    android:text="  Update child profile" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp">
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
